@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.nav {
+    /* background-color: aqua; */
+    height: 15vh;
+    width: 100%;
+
+}
+
+.nav1 {
+    height: 7vh;
+    /* width: 80%; */
+    color: gray;
+    background-color: rgb(239, 241, 249);
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i {
+    font-size: 20px;
+    color: rgb(88, 196, 238);
+    margin-right: 10px;
+}
+
+.nav1 div {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav1 div ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav1 div .inr i {
+    color: gray;
+}
+
+.nav1 .inr {
+    height: 25px;
+    width: 60px;
+    background-color: rgb(199, 196, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button_1 {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(199, 196, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.nav2 {
+    height: 13vh;
+    /* background-color: rgb(1, 83, 55); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav2 div ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup_button {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(19, 19, 75);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.gradient {
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(283deg, rgba(255, 255, 255, 0.9557072829131653) 0%, rgba(179, 193, 243, 1) 0%, rgba(236, 218, 218, 1) 51%);
+}
+
+.boxparent {
+    height: 80vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    background: linear-gradient(310deg, rgba(177, 192, 237, 0.978203781512605) 0%, rgba(242, 243, 246, 1) 40%, rgba(238, 240, 245, 1) 48%);
+}
+
+.box1 {
+    height: 80vh;
+    width: 100%;
+    /* background-color:rgb(248, 237, 224); */
+    margin-left: 20vh;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1 h1 {
+    margin-top: 60px;
+    color: rgb(19, 19, 21);
+    font-size: 45px;
+    font-weight: 450;
+}
+
+.box2 img {
+    border-radius: 5px;
+    margin-right: 10vh;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box1 p {
+    color: rgb(160, 160, 160);
+}
+
+.true {
+    color: rgb(152, 150, 150);
+}
+
+.box2 {
+    height: 80vh;
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 40px;
+}
+
+.getbutton {
+    background-color: rgb(35, 35, 91);
+    height: 40px;
+    width: 210px;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disc {
+    display: flex;
+    gap: 20px;
+}
+
+.disc input {
+    width: 370px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.cards {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card1 {
+    height: 210px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+}
+
+.card1 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: 300;
+    text-align: center;
+    width: 240px;
+    font-size: 16px;
+}
+
+.card1 img {
+    height: 70px;
+}
+
+.card1 h3 {
+    color: rgb(40, 37, 37);
+}
+
+.card1 p {
+    font-size: 18px;
+    color: rgb(68, 60, 60);
+    text-align: center;
+}
+
+.rank {
+    height: 250px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.rank1 {
+    height: 250px;
+    width: 100%;
+    /* background-color: rgb(40, 40, 77); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.rank h1 {
+    font-size: 40px;
+}
+
+.rank p {
+    font-size: 25px;
+    color: rgb(60, 55, 55);
+    text-align: center;
+}
+
+.rank1 img {
+    height: 160px;
+
+}
+
+.rad {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.rad h1 {
+    font-size: 45px;
+    color: rgb(53, 52, 52);
+}
+
+.rad p {
+    font-size: 22px;
+    color: rgb(97, 94, 94);
+    text-align: center;
+}
+
+.Ranked {
+    height: 250px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Ranked1 {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+}
+
+.Ranked1 img {
+    height: 65px;
+    margin-top: 30px;
+}
+
+.Ranked1 h3 {
+    font-size: 23px;
+}
+
+.Ranked1 p {
+    font-size: 18px;
+}
+
+.button {
+    background-color: black;
+    height: 35px;
+    width: 125px;
+    margin-top: 10vh;
+    color: rgb(226, 226, 226);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sim {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.sim1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sim2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastimg img {
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* .experiance{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:100px;
+    }
+    .experiance1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
